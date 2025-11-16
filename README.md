@@ -62,18 +62,19 @@ Entity relationships mapped cleanly
 
 📂 Project Structure
 src/
- └── main/
-     ├── java/com/aurora/sb_ecom
-     │     ├── controller
-     │     ├── service
-     │     ├── model
-     │     ├── repository
-     │     ├── payload (DTOs)
-     │     ├── security
-     │     └── exception
-     └── resources/
-            ├── application.properties
-            └── data.sql (optional)
+
+     └── main/
+         ├── java/com/aurora/sb_ecom
+         │     ├── controller
+         │     ├── service
+         │     ├── model
+         │     ├── repository
+         │     ├── payload (DTOs)
+         │     ├── security
+         │     └── exception
+         └── resources/
+                ├── application.properties
+                └── data.sql (optional)
 
 🛠 Tech Stack
 

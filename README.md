@@ -5,36 +5,59 @@ The project simulates a real-world product backend and follows clean coding prin
 
 📌 Features
 1. User Authentication & Authorization
+
 Registration & login with JWT
+
 Role-based access (USER, ADMIN)
+
 Secure endpoints using Spring Security
+
 Cookie-based authentication supported
 
 2. Product Management
+
 CRUD operations for products
+
 Category-based filtering
+
 Pagination & sorting
+
 Layered architecture: Controller → Service → Repository
 
 3. Cart Management
+
 Add products to cart
+
 Update quantities
+
 Remove items
+
 Calculate total amount dynamically
+
 Proper mapping between Cart → CartItem → Product
 
 4. Order System
+
 Convert cart to order
+
 Track order status
+
 Store order history per user
+
 Payment simulation (no actual payment gateway yet)
 
 5. Industrial-Grade Practices
+
 DTO pattern
+
 Global exception handling
+
 Custom exceptions
+
 Layer separation (Controller, Service, Repository)
+
 Logging
+
 Entity relationships mapped cleanly
 
 📂 Project Structure
@@ -53,13 +76,21 @@ src/
             └── data.sql (optional)
 
 🛠 Tech Stack
-Java 25
+
+Java 17+
+
 Spring Boot
+
 Spring Security + JWT
+
 Spring Data JPA
+
 Hibernate
+
 MySQL / PostgreSQL
-Lombok 
+
+Lombok (optional)
+
 Maven
 
 🚀 How to Run the Project
@@ -83,7 +114,7 @@ mvn clean install
 mvn spring-boot:run
 
 📬 API Endpoints (Highlights)
-***********TO BE ADDED************
+**********TO BE ADDED***********
 
 🧱 Architecture & Design
 
@@ -105,12 +136,17 @@ Constructor injection throughout the codebase.
 📈 Current Status
 
 Product module complete
+
 Cart module functional
+
 JWT login working
+
 Orders and payments integrated
+
 More modules coming soon (wishlist, reviews, inventory)
 
 👤 Author
+
 Abhinanda Mannazhath Nandan
 Backend Developer — Java | Spring Boot
 Weimar, Germany

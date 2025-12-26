@@ -25,7 +25,7 @@ services:
       - db
 
   app:
-    image: ecom-app-img:v2
+    image: abhinanda0209/ecom-app:v2
     container_name: ecom_app
     ports:
       - "8080:8080"

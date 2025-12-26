@@ -114,7 +114,41 @@ spring.jpa.show-sql=true
 mvn clean install
 mvn spring-boot:run
 
+## Run with Docker
+
+Requirements:
+- Docker
+- Docker Compose\
+ OR
+- Docker Desktop
+
+Run the application:
+
+```bash
+docker compose up --build
+```
+
+Access
+
+App: Use postman with endpoints given below
+pgAdmin: http://localhost:5050
+
+Database (Postgres)\
+host: db\
+DB: ecomdb\
+User: ecomuser\
+Password: ecompass
+
 📬 API Endpoints (Highlights)
+Category:\
+Get All Categories: GET http://localhost:8080/api/public/categories \
+Create new Category: POST http://localhost:8080/api/public/categories \
+Delete a Category : DELETE http://localhost:8080/api/admin/categories/{categoryId} \
+Update a Category : PUT http://localhost:8080/api/admin/categories/{categoryId} \
+
+Product:\
+Add Product: POST http://localhost:8080/api/admin/categories/1/product \
+Update Product: PUT http://localhost:8080/api/admin/products/{id}
 **********TO BE ADDED***********
 
 🧱 Architecture & Design
